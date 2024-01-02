@@ -525,7 +525,7 @@ local function QuestCheck()
 	}
 	end
 	function Bypass(Point)
-		toposition(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame)
+		--toposition(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame)
 		wait(1.5)
 		_G.StopTween = true
 		_G.StertScript = false
